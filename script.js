@@ -1,14 +1,12 @@
 calcular ( ) ;
 función  calcular ( )  {
-    let  num1  =  parseInt ( prompt ( "Primer número:" ) ) ;
-    let  num2  =  parseInt ( prompt ( "Segundo número:" ) ) ;
-
+    let  num1  =  parseInt ( prompt ( "Pon tu primer número:" ) ) ;
+    let  num2  =  parseInt ( prompt ( "Pon tu segundo número:" ) ) ;
     sumar ( num1 ,  num2 ) ;
     reiniciar ( num1 ,  num2 ) ;
     multiplicar ( num1 ,  num2 ) ;
     dividir ( num1 ,  num2 ) ;
 }
-
 función  sumar ( num1 ,  num2 )  {
     let  resultado  =  num1  +  num2 ;
     consola _ log ( `La suma es: ${ resultado } ` ) ;
